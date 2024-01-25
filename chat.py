@@ -18,8 +18,8 @@ from langchain.agents import AgentExecutor, Tool, ZeroShotAgent
 from langchain.output_parsers import PydanticOutputParser
 MODEL_NAME = "gpt-35-turbo-1106"
 os.environ["OPENAI_API_TYPE"] = "azure"
-os.environ["AZURE_OPENAI_ENDPOINT"] = "https://oxalus-hust-chatbot.openai.azure.com/"
-os.environ["AZURE_OPENAI_API_KEY"] = "9f9bf3570cd945a68ddf27c196807862"
+os.environ["AZURE_OPENAI_ENDPOINT"] = "******"
+os.environ["AZURE_OPENAI_API_KEY"] = "*****"
 os.environ["LANGCHAIN_TRACING"] = "false"
 CHAT_API_VERSION = "2023-07-01-preview"
 
